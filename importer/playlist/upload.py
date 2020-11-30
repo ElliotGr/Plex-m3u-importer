@@ -9,9 +9,9 @@ def create_item_list(playlist, indexed_library):
         if indexed_library.has_key(filename):
             list.append(indexed_library[filename])
         else:
-            print('unable to find file' + filename)
+            print('unable to find file ' + filename)
     return list
 
 
 def create_playlist(list, server):
-    server.createPlaylist('player', list)
+    server.createPlaylist('plist', list)
