@@ -1,0 +1,6 @@
+{
+  "server": "server_name",
+  "library": "music_library",
+  "user": "username",
+  "pass": "password"
+}

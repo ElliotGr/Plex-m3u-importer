@@ -14,4 +14,4 @@ def create_item_list(playlist, indexed_library):
 
 
 def create_playlist(list, server):
-    server.createPlaylist('plist', list)
+    server.createPlaylist('imported_playlist', list)
