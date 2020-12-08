@@ -1,3 +1,7 @@
-def load_playlist():
-    with open('playlist.m3u', encoding='utf-8') as list:
+def load_playlists(playlists):
+    return [load_playlist(playlist) for playlist in playlists]
+
+
+def load_playlist(playlist):
+    with open(playlist, encoding='utf-8') as list:
         return list.read().splitlines()
