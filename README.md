@@ -1,5 +1,5 @@
 # Plex-m3u-importer
-This is a simple script to import .m3u playlists to a remote plex server. This is similar to https://github.com/dakusan/PlexPlaylistImporter but does not have the limitation of needing to be run on the same machine as the server.
+This is a simple script to import .m3u playlists to a remote plex server.
 ## Installation
 Can install in a new venv using
 ```bash
