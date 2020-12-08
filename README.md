@@ -7,9 +7,13 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-Alternatively the releases will include a standalone windows binary to use.
+Alternatively the releases will include a standalone windows binary to use. This just needs to be unzipped.
 ## How to use?
 First, a config.json file must be written (see config.json.example for formatting). Then, can be run from command line using
 ```bash
 python m3u_importer playlist_1.m3u playlist_2.m3u
+```
+or on windows
+```cmd
+.\m3u_importer.exe playlist_1.m3u playlist_2.m3u
 ```
