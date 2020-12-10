@@ -3,5 +3,5 @@ def load_playlists(playlists):
 
 
 def load_playlist(playlist):
-    with open(playlist, encoding='utf-8') as list:
+    with open(playlist, encoding='ANSI') as list:
         return list.read().splitlines()
